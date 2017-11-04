@@ -4,14 +4,14 @@ A package and theme manager for Spotify on Windows
 
 ## Installation
 
-Clone this repo and run ```node spmv2.js``
+Clone this repo and run `node spmv2.js`
 OR
 Install with NPM:
-```npm i spotimod-v2 -g```
+`npm i spotimod-v2 -g`
 
 ## Basic Usage
 
-spmv2 --setup {spotify path} - Sets up Spotify and injects bootstrap. If you see no results edit the config.json file and set the boolean ```isSetup``` to ```false```. Run the latest spotify installer from the website and rerun the setup.
+spmv2 --setup {spotify path} - Sets up Spotify and injects bootstrap. If you see no results edit the config.json file and set the boolean `isSetup` to `false`. Run the latest spotify installer from the website and rerun the setup.
 
 spmv2 --server - Starts the Spotify interaction server.
 
