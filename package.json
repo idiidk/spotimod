@@ -1,0 +1,52 @@
+{
+  "name": "spotimod-v2",
+  "version": "0.1.1",
+  "description": "A package manager for Spotify",
+  "main": "spmv2.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "extract-zip": "^1.6.5",
+    "fs-extra": "^4.0.2",
+    "minimist": "^1.2.0",
+    "replace-in-file": "^3.0.0-beta.2",
+    "socket.io": "^2.0.4",
+    "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "spmv2": "spmv2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idiidk/spotimod.git"
+  },
+  "keywords": [
+    "package",
+    "manager",
+    "spotify",
+    "injection",
+    "javascript",
+    "css",
+    "theme",
+    "mods",
+    "adblock",
+    "hacks"
+  ],
+  "author": "idiidk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idiidk/spotimod/issues"
+  },
+  "homepage": "https://github.com/idiidk/spotimod#readme",
+  "optionalDependencies": {
+    "bufferutil": "^3.0.2",
+    "utf-8-validate": "^3.0.3"
+  }
+}

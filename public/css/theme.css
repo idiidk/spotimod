@@ -1,0 +1,36 @@
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+.title {
+    margin: 0; margin-top: 20px;
+}
+
+.subtitle {
+    margin-top: 0;
+}
+
+.p-divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.logo-view .background .background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 100%;
+}
