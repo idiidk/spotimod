@@ -10,7 +10,7 @@
     "fs-extra": "^4.0.2",
     "minimist": "^1.2.0",
     "replace-in-file": "^3.0.0-beta.2",
-    "socket.io": "^2.0.4",
+    "socket.io": "^3.0.5",
     "zip-folder": "^1.0.0",
     "snyk": "^1.69.10"
   },
